@@ -28,7 +28,7 @@ def perimetro(f_raio):
 
 raio = 1
 
-print(f"perimetro = {perimetro(raio):.4f}")
+print(f"O Perimetro é = {perimetro(raio):.4f}")
 
 ##3.10
 
@@ -47,7 +47,6 @@ def troca_posicao(lista):
     temp = lista[0]
     lista[0] = lista[-1]
     lista[-1] = temp
-
     print(lista)
 
 time = ["Ava", "Eleanor", "Clare", "Sarah"]
@@ -67,3 +66,13 @@ lista1 = [5, 8, 9]
 
 print(lista1)
 print(lista2)
+
+##
+
+def inverter(lista):
+    lista.reverse()
+    print(lista)
+
+time = ["Ava", "Eleanor", "Clare", "Sarah"]
+inverter(time)
+

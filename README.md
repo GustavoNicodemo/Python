@@ -23,11 +23,20 @@ Python/
 │   └── operacoes_basicas.py    # Exercícios iniciais com variáveis e operações simples.
 ├── 02_operadores/
 │   ├── aritmetica_divisao.py   # Operações aritméticas (divisão, resto).
+│   ├── exercicios_semana2.py   # Exercícios práticos da semana 2.
 │   └── media_harmonica.py      # Cálculo de média harmônica com amortização.
-└── 03_listas/
-    ├── manipulacao_listas.py   # Testes com manipulação de listas.
-    ├── exercicios_vazios.py    # Scripts de apoio.
-    └── hello_junie.py          # Exemplo interativo com funções e saudações.
+├── 03_listas/
+│   ├── exercicios_semana3.py   # Exercícios práticos da semana 3.
+│   ├── hello_junie.py          # Exemplo interativo com funções e saudações.
+│   ├── listas_tuplas_operadores.py # Estudos sobre listas e tuplas.
+│   ├── manipulacao_listas.py   # Testes com manipulação de listas.
+│   └── verificador_cpf.py      # Algoritmo de validação de CPF.
+├── 04_primeiros_programas/
+│   ├── exercicios_semana4.py   # Exercícios práticos da semana 4.
+│   └── print_input_eval_.py    # Estudos sobre entrada e saída de dados.
+└── 05_estruturas_controle/
+    ├── estruturas_condicao.py  # Estudos sobre if, elif e else.
+    └── exercicios_semana5.py   # Exercícios práticos da semana 5.
 ```
 
 ## ⚙️ Configuração e Instalação
@@ -62,7 +71,9 @@ python media_harmonica.py
 
 - **01_fundamentos/operacoes_basicas.py**: Operações básicas de soma.
 - **02_operadores/media_harmonica.py**: Script que calcula a média harmônica de notas com um fator de amortização.
-- **03_listas/hello_junie.py**: Demonstração de funções, f-strings e iteração em listas.
+- **03_listas/verificador_cpf.py**: Implementação de lógica para validação de dígitos de CPF.
+- **04_primeiros_programas/print_input_eval_.py**: Demonstração de uso de funções nativas para interação com usuário.
+- **05_estruturas_controle/estruturas_condicao.py**: Exemplos de lógica condicional.
 
 ## 🧪 Testes
 
