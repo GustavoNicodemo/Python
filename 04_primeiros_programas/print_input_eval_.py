@@ -48,3 +48,51 @@ try:
 
 except ValueError:
     print("Erro: Por favor, digite apenas números válidos.")
+
+## Testes de f-string
+
+
+numeroPi = 3.14159
+print(f"pi = {numeroPi}")
+print(f"{numeroPi = }")
+
+print("-----------------")
+
+n = 12345.6789
+
+print(f"n = {n:.2f}")
+print(f"n = {n:.0f}")
+print(f"n = {n:,.2f}")
+print(f"n = {n:_.2f}")
+print(f"n = {n:.2e}")
+print(f"n = {n:.2f}")
+print(f"n = {n:+.2f}")
+
+print("-----------------")
+
+p = 5.45
+
+print(f"Porcentagem = {p:.2%}")
+print(f"Porcentagem = {p:.0%}")
+
+print("-----------------")
+
+decimais = 3
+
+print(f"Pi = {numeroPi:.{decimais}}")
+
+print("-----------------")
+
+texto = "Teste"
+
+print(f"Texto = {texto:$<15}")
+print(f"Texto = {texto:+>15}")
+print(f"Texto = {texto:*^15}")
+
+print("-----------------")
+
+dec = 145
+
+print(f"Binario = {dec = :b}")
+print(f"Hexa = {dec = :x}")
+print(f"Octa = {dec = :o}")
