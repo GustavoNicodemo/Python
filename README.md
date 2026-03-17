@@ -23,7 +23,6 @@ Python/
 │   ├── binarios.py             # Operações com binários.
 │   ├── raizes.py               # Cálculo de raízes quadradas.
 │   ├── raizes_equacoes.py      # Resolução de equações do 2º grau (Bhaskara e Iterativo).
-│   ├── raizes_equacoes_junie.py # Versão aprimorada com boas práticas.
 │   └── soma_fracoes.py         # Soma e simplificação de frações.
 ├── 01_fundamentos/
 │   └── operacoes_basicas.py    # Exercícios iniciais com variáveis e operações simples.
@@ -84,11 +83,11 @@ python media_harmonica.py
 
 ## 📝 Scripts Disponíveis
 
-- **00_operacoes_matematicas/raizes_equacoes_junie.py**: Resolução completa de equações do 2º grau com método analítico e numérico.
 - **02_operadores/media_harmonica.py**: Script que calcula a média harmônica de notas com um fator de amortização.
 - **03_listas/verificador_cpf.py**: Implementação de lógica para validação de dígitos de CPF.
+- **05_estruturas_controle/exercicios_semana5_junie.py**: Exercícios de lógica condicional com refatoração para legibilidade e robustez.
 - **06_estruturas_repeticao/exercicios_semana6_junie.py**: Prática de loops e estruturas de repetição com código otimizado.
-- **07_vetores_matrizes/exercicios_semana7_junie.py**: Manipulação avançada de listas e matrizes.
+- **07_vetores_matrizes/exercicios_semana7_junie.py**: Manipulação avançada de listas e matrizes com tratamento de exceções.
 
 ## 🧪 Testes
 
