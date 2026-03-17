@@ -19,6 +19,12 @@ O repositório está organizado da seguinte forma:
 
 ```text
 Python/
+├── 00_operacoes_matematicas/
+│   ├── binarios.py             # Operações com binários.
+│   ├── raizes.py               # Cálculo de raízes quadradas.
+│   ├── raizes_equacoes.py      # Resolução de equações do 2º grau (Bhaskara e Iterativo).
+│   ├── raizes_equacoes_junie.py # Versão aprimorada com boas práticas.
+│   └── soma_fracoes.py         # Soma e simplificação de frações.
 ├── 01_fundamentos/
 │   └── operacoes_basicas.py    # Exercícios iniciais com variáveis e operações simples.
 ├── 02_operadores/
@@ -34,9 +40,18 @@ Python/
 ├── 04_primeiros_programas/
 │   ├── exercicios_semana4.py   # Exercícios práticos da semana 4.
 │   └── print_input_eval_.py    # Estudos sobre entrada e saída de dados.
-└── 05_estruturas_controle/
-    ├── estruturas_condicao.py  # Estudos sobre if, elif e else.
-    └── exercicios_semana5.py   # Exercícios práticos da semana 5.
+├── 05_estruturas_controle/
+│   ├── estruturas_condicao.py  # Estudos sobre if, elif e else.
+│   ├── exercicios_semana5.py   # Exercícios práticos da semana 5.
+│   └── exercicios_semana5_junie.py # Exercícios semana 5 com melhorias Junie.
+├── 06_estruturas_repeticao/
+│   ├── estruturas_repeticao.py # Estudos sobre loops for e while.
+│   ├── exercicios_semana6.py   # Exercícios práticos da semana 6.
+│   └── exercicios_semana6_junie.py # Exercícios semana 6 com melhorias Junie.
+└── 07_vetores_matrizes/
+    ├── exercicios_semana7.py   # Exercícios práticos da semana 7.
+    ├── exercicios_semana7_junie.py # Exercícios semana 7 com melhorias Junie.
+    └── vetores_matrizes.py     # Estudos sobre manipulação de vetores e matrizes.
 ```
 
 ## ⚙️ Configuração e Instalação
@@ -69,11 +84,11 @@ python media_harmonica.py
 
 ## 📝 Scripts Disponíveis
 
-- **01_fundamentos/operacoes_basicas.py**: Operações básicas de soma.
+- **00_operacoes_matematicas/raizes_equacoes_junie.py**: Resolução completa de equações do 2º grau com método analítico e numérico.
 - **02_operadores/media_harmonica.py**: Script que calcula a média harmônica de notas com um fator de amortização.
 - **03_listas/verificador_cpf.py**: Implementação de lógica para validação de dígitos de CPF.
-- **04_primeiros_programas/print_input_eval_.py**: Demonstração de uso de funções nativas para interação com usuário.
-- **05_estruturas_controle/estruturas_condicao.py**: Exemplos de lógica condicional.
+- **06_estruturas_repeticao/exercicios_semana6_junie.py**: Prática de loops e estruturas de repetição com código otimizado.
+- **07_vetores_matrizes/exercicios_semana7_junie.py**: Manipulação avançada de listas e matrizes.
 
 ## 🧪 Testes
 

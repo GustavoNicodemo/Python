@@ -67,6 +67,7 @@ print(f"n = {n:_.2f}")
 print(f"n = {n:.2e}")
 print(f"n = {n:.2f}")
 print(f"n = {n:+.2f}")
+print(f"n = {n:+}")
 
 print("-----------------")
 
