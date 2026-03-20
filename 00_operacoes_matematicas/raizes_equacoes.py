@@ -66,6 +66,9 @@ def acha_raiz(novo_b, novo_c, passo, xi , yi):
 
 print("Seja a Eq. Ax² + Bx + C = 0")
 
+Passo = 0.001
+Xi = 0
+
 try:
     Constante_A_str = input("Constante A: ").replace(',', '.')
     A = float(Constante_A_str)
@@ -89,14 +92,14 @@ try:
 
     lista_y1 = [999 , 999 , 999]
 
-    Y_Minimo = acha_minimo( Novo_B, Novo_C, 0.1, 5)
+    Y_Minimo = acha_minimo( Novo_B, Novo_C, Passo, Xi)
 
     if Y_Minimo[2][1] < 0:
-        Raiz = acha_raiz(Novo_B, Novo_C, 0.1, Y_Minimo[1][1] , [0 , Y_Minimo[2][1]])
+        Raiz = acha_raiz(Novo_B, Novo_C, Passo, Y_Minimo[1][1] , [0 , Y_Minimo[2][1]])
         Outra_Raiz = Y_Minimo[1][1] * 2 - Raiz
         print(f"\nIterativo: As raízes são: {Raiz:.4f} e {Outra_Raiz:.4f}")
     elif Y_Minimo[2][1] == 0:
-        Raiz = acha_raiz(Novo_B, Novo_C, 0.1, Y_Minimo[1][1], [0, Y_Minimo[2][1]])
+        Raiz = acha_raiz(Novo_B, Novo_C, Passo, Y_Minimo[1][1], [0, Y_Minimo[2][1]])
         print(f"\nIterativo: Uma raiz dupla e igual a {Raiz:.4f)}")
     else:
         print(f"\nIterativo: Não tem Raízes Reais")
