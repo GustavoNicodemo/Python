@@ -47,10 +47,14 @@ Python/
 │   ├── estruturas_repeticao.py # Estudos sobre loops for e while.
 │   ├── exercicios_semana6.py   # Exercícios práticos da semana 6.
 │   └── exercicios_semana6_junie.py # Exercícios semana 6 com melhorias Junie.
-└── 07_vetores_matrizes/
-    ├── exercicios_semana7.py   # Exercícios práticos da semana 7.
-    ├── exercicios_semana7_junie.py # Exercícios semana 7 com melhorias Junie.
-    └── vetores_matrizes.py     # Estudos sobre manipulação de vetores e matrizes.
+├── 07_vetores_matrizes/
+│   ├── exercicios_semana7.py   # Exercícios práticos da semana 7.
+│   ├── exercicios_semana7_junie.py # Exercícios semana 7 com melhorias Junie.
+│   └── vetores_matrizes.py     # Estudos sobre manipulação de vetores e matrizes.
+└── 08_arquivos/
+    ├── arquivos.py             # Estudos sobre manipulação de arquivos (leitura/escrita).
+    ├── exercicios_semana8.py   # Exercícios práticos da semana 8.
+    └── exercicios_semana8_junie.py # Exercícios semana 8 com melhorias Junie.
 ```
 
 ## ⚙️ Configuração e Instalação
@@ -88,6 +92,7 @@ python media_harmonica.py
 - **05_estruturas_controle/exercicios_semana5_junie.py**: Exercícios de lógica condicional com refatoração para legibilidade e robustez.
 - **06_estruturas_repeticao/exercicios_semana6_junie.py**: Prática de loops e estruturas de repetição com código otimizado.
 - **07_vetores_matrizes/exercicios_semana7_junie.py**: Manipulação avançada de listas e matrizes com tratamento de exceções.
+- **08_arquivos/exercicios_semana8_junie.py**: Manipulação de arquivos (leitura e escrita) com foco em segurança e boas práticas.
 
 ## 🧪 Testes
 
