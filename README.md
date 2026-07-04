@@ -51,10 +51,20 @@ Python/
 │   ├── exercicios_semana7.py   # Exercícios práticos da semana 7.
 │   ├── exercicios_semana7_junie.py # Exercícios semana 7 com melhorias Junie.
 │   └── vetores_matrizes.py     # Estudos sobre manipulação de vetores e matrizes.
-└── 08_arquivos/
-    ├── arquivos.py             # Estudos sobre manipulação de arquivos (leitura/escrita).
-    ├── exercicios_semana8.py   # Exercícios práticos da semana 8.
-    └── exercicios_semana8_junie.py # Exercícios semana 8 com melhorias Junie.
+├── 08_arquivos/
+│   ├── arquivos.py             # Estudos sobre manipulação de arquivos (leitura/escrita).
+│   ├── exercicios_semana8.py   # Exercícios práticos da semana 8.
+│   └── exercicios_semana8_junie.py # Exercícios semana 8 com melhorias Junie.
+├── 09_poo/
+│   ├── poo.py                  # Estudos sobre Programação Orientada a Objetos.
+│   ├── exercicios_semana9.py   # Exercícios práticos da semana 9.
+│   └── exercicios_semana9_junie.py # Exercícios semana 9 com melhorias Junie.
+├── 12_algoritmos_ordenacao/
+│   ├── algoritmos_ordenacao.py # Implementação de algoritmos de ordenação.
+│   └── exercicios_semana12.py  # Exercícios de ordenação.
+└── 13_api_www/
+    ├── api_www.py              # Estudos sobre API e Protocolo HTTP.
+    └── exercicios_semana13.py  # Exercícios práticos de consumo de APIs.
 ```
 
 ## ⚙️ Configuração e Instalação
@@ -93,6 +103,8 @@ python media_harmonica.py
 - **06_estruturas_repeticao/exercicios_semana6_junie.py**: Prática de loops e estruturas de repetição com código otimizado.
 - **07_vetores_matrizes/exercicios_semana7_junie.py**: Manipulação avançada de listas e matrizes com tratamento de exceções.
 - **08_arquivos/exercicios_semana8_junie.py**: Manipulação de arquivos (leitura e escrita) com foco em segurança e boas práticas.
+- **09_poo/exercicios_semana9_junie.py**: Introdução à Programação Orientada a Objetos, cobrindo classes, métodos e herança.
+- **13_api_www/api_www.py**: Introdução ao consumo de APIs web utilizando a biblioteca padrão do Python.
 
 ## 🧪 Testes
 
